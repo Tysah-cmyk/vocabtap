@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VocabTap</title>
+  <link rel="stylesheet" href="VpStyle.css">
+</head>
+<body>
+  <h1>VocabTap</h1>
+
+  <button class="strip-button" id="mode-button">Mode: Speak on tap</button>
+
+  <div class="strip">
+    <div class="strip-words"></div>
+    <button class="strip-button" id="speak-all">Speak</button>
+    <button class="strip-button" id="clear-all">Clear</button>
+  </div>
+
+  <div class="tabs"></div>
+  <div class="card-grid"></div>
+
+  <div class="add-card">
+    <h2>Add a card</h2>
+    <input id="new-emoji" placeholder="Emoji, e.g. 🍌">
+    <input id="new-label" placeholder="Word on the card">
+    <input id="new-speech" placeholder="What it says (optional)">
+    <select id="new-category"></select>
+    <button class="strip-button" id="add-button">Add card</button>
+  </div>
+
+  <script src="Vpscript.js"></script>
+</body>
+</html>
