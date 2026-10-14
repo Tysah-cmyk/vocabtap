@@ -170,7 +170,7 @@ document.querySelector("#add-button").addEventListener("click", function () {
 
   showCards("all");
   setActiveTab(document.querySelector(".tab"));
-});s
+});
 function speak(text) {
   window.speechSynthesis.cancel();
   const utterance = new SpeechSynthesisUtterance(text);
